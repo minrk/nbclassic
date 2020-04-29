@@ -1,24 +1,18 @@
-# nbclassic: Jupyter Notebook as a Jupyter Server Extension
+# Jupyter Notebook as a Jupyter Server Extension
 
 ![Testing nbclassic](https://github.com/Zsailer/nbclassic/workflows/Testing%20nbclassic/badge.svg)
 
-This library allows you to install both [jupyter/notebook](github.com/jupyter/notebook) and a Jupyter Notebook Server Extension side-by-side (and any other Jupyter Server Frontend).
 
-This helps projects like JupyterLab and nteract_on_jupyter transition from jupyter/notebook to jupyter/jupyter_server for the core Jupyter Tornado Server.
+The classic [Jupyter Notebook]((github.com/jupyter/notebook)) frontend running on Jupyter Server.
 
-## Install
+## Basic Usage
 
 Install from PyPI:
 ```
-pip install nbclassic
+> pip install nbclassic
 ```
 
-Launch with Jupyter Server:
+Launch using directly:
 ```
-jupyter server
+> jupyter nbclassic
 ```
-or directly with
-```
-jupyter nbclassic
-```
-and go to: http://localhost:8888/tree?token=...
