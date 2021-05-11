@@ -1,4 +1,4 @@
-To create a release, update the version number in `nbclassic/__version__.py`, then run the following:
+To create a release, update the version number in `nbclassic/_version.py`, then run the following:
 
 ```
 git clean -dffx
@@ -10,6 +10,6 @@ git tag $script_version
 git push --all
 git push --tags
 pip install twine
-twine check dist/* 
+twine check dist/*
 twine upload dist/*
 ```

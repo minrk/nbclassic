@@ -8,7 +8,7 @@ NAME = 'nbclassic'
 about = {}
 here = os.path.abspath(os.path.dirname(__file__))
 project_slug = NAME.lower().replace("-", "_").replace(" ", "_")
-with open(os.path.join(here, project_slug, '__version__.py')) as f:
+with open(os.path.join(here, project_slug, '_version.py')) as f:
     exec(f.read(), about)
 
 

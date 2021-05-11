@@ -1,5 +1,5 @@
 from .notebookapp import NotebookApp
-
+from ._version import version_info, __version__  # noqa
 
 def _jupyter_server_extension_paths():
     return [
